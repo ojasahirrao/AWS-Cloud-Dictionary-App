@@ -1,0 +1,40 @@
+body {
+  font-family: Arial, sans-serif;
+  padding: 30px;
+  background-color: #f4f4f4;
+}
+
+.appName {
+  color: #333;
+}
+
+.note {
+  font-size: 12px;
+}
+
+.searchTerm, .searchBtn {
+  padding: 10px;
+  margin-top: 10px;
+  font-size: 16px;
+}
+
+.searchTerm {
+  width: 350px;
+}
+
+.searchBtn:hover{
+  cursor: pointer;
+}
+
+.result {
+  margin-top: 20px;
+  background: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  display: none;
+}
+
+.error {
+  color: red;
+}

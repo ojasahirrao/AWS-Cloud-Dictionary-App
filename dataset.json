@@ -1,0 +1,257 @@
+[
+  {
+    "keyword": "ec2",
+    "definition": "Amazon EC2 (Elastic Compute Cloud) provides secure, resizable compute capacity in the cloud.",
+    "source": "AWS Glossary"
+  },
+  {
+    "keyword": "s3",
+    "definition": "Amazon S3 (Simple Storage Service) is an object storage service that offers scalability, data availability, and security.",
+    "source": "AWS Glossary"
+  },
+  {
+    "keyword": "lambda",
+    "definition": "AWS Lambda lets you run code without provisioning or managing servers.",
+    "source": "AWS Glossary"
+  },
+  {
+    "keyword": "dynamodb",
+    "definition": "Amazon DynamoDB is a fast, flexible NoSQL database service for any scale.",
+    "source": "AWS Glossary"
+  },
+  {
+    "keyword": "iam",
+    "definition": "AWS Identity and Access Management (IAM) enables secure access to AWS services and resources.",
+    "source": "AWS Glossary"
+  },
+  {
+    "keyword": "vpc",
+    "definition": "Amazon Virtual Private Cloud (VPC) lets you provision a logically isolated section of the AWS Cloud.",
+    "source": "AWS Glossary"
+  },
+  {
+    "keyword": "route53",
+    "definition": "Amazon Route 53 is a scalable DNS and domain name registration service.",
+    "source": "AWS Glossary"
+  },
+  {
+    "keyword": "cloudfront",
+    "definition": "Amazon CloudFront is a content delivery network (CDN) for fast distribution of data and applications.",
+    "source": "AWS Glossary"
+  },
+  {
+    "keyword": "rds",
+    "definition": "Amazon RDS is a managed relational database service supporting various engines like MySQL and PostgreSQL.",
+    "source": "AWS Glossary"
+  },
+  {
+    "keyword": "ebs",
+    "definition": "Amazon EBS (Elastic Block Store) provides persistent block storage volumes for EC2.",
+    "source": "AWS Glossary"
+  },
+  {
+    "keyword": "sqs",
+    "definition": "Amazon SQS (Simple Queue Service) enables message queuing for decoupling microservices.",
+    "source": "AWS Glossary"
+  },
+  {
+    "keyword": "sns",
+    "definition": "Amazon SNS (Simple Notification Service) is a messaging service for A2A and A2P communication.",
+    "source": "AWS Glossary"
+  },
+  {
+    "keyword": "ecs",
+    "definition": "Amazon ECS (Elastic Container Service) is a managed container orchestration service.",
+    "source": "AWS Glossary"
+  },
+  {
+    "keyword": "eks",
+    "definition": "Amazon EKS (Elastic Kubernetes Service) runs Kubernetes without managing your own cluster.",
+    "source": "AWS Glossary"
+  },
+  {
+    "keyword": "cloudwatch",
+    "definition": "Amazon CloudWatch monitors and logs metrics for AWS resources and apps.",
+    "source": "AWS Glossary"
+  },
+  {
+    "keyword": "cloudtrail",
+    "definition": "AWS CloudTrail records account activity across AWS infrastructure.",
+    "source": "AWS Glossary"
+  },
+  {
+    "keyword": "cloudformation",
+    "definition": "AWS CloudFormation automates infrastructure as code using JSON/YAML templates.",
+    "source": "AWS Glossary"
+  },
+  {
+    "keyword": "elasticbeanstalk",
+    "definition": "AWS Elastic Beanstalk deploys and manages web applications easily.",
+    "source": "AWS Glossary"
+  },
+  {
+    "keyword": "autoscaling",
+    "definition": "AWS Auto Scaling automatically adjusts capacity for optimal performance and cost.",
+    "source": "AWS Glossary"
+  },
+  {
+    "keyword": "apigateway",
+    "definition": "Amazon API Gateway builds, deploys, and manages secure APIs at scale.",
+    "source": "AWS Glossary"
+  },
+  {
+    "keyword": "fargate",
+    "definition": "AWS Fargate runs containers without managing servers or clusters.",
+    "source": "AWS Glossary"
+  },
+  {
+    "keyword": "athena",
+    "definition": "Amazon Athena is an interactive query service to analyze data in Amazon S3 using SQL.",
+    "source": "AWS Glossary"
+  },
+  {
+    "keyword": "glue",
+    "definition": "AWS Glue is a serverless data integration service to prepare and transform data.",
+    "source": "AWS Glossary"
+  },
+  {
+    "keyword": "codepipeline",
+    "definition": "AWS CodePipeline automates the release process for continuous delivery.",
+    "source": "AWS Glossary"
+  },
+  {
+    "keyword": "codebuild",
+    "definition": "AWS CodeBuild is a fully managed build service in the CI/CD process.",
+    "source": "AWS Glossary"
+  },
+  {
+    "keyword": "codedeploy",
+    "definition": "AWS CodeDeploy automates code deployments to any instance.",
+    "source": "AWS Glossary"
+  },
+  {
+    "keyword": "lightsail",
+    "definition": "Amazon Lightsail provides simplified cloud servers, storage, and networking.",
+    "source": "AWS Glossary"
+  },
+  {
+    "keyword": "redshift",
+    "definition": "Amazon Redshift is a fast, scalable data warehouse in the cloud.",
+    "source": "AWS Glossary"
+  },
+  {
+    "keyword": "kinesis",
+    "definition": "Amazon Kinesis processes real-time streaming data at massive scale.",
+    "source": "AWS Glossary"
+  },
+  {
+    "keyword": "quicksight",
+    "definition": "Amazon QuickSight is a cloud-scale business intelligence service.",
+    "source": "AWS Glossary"
+  },
+  {
+    "keyword": "stepfunctions",
+    "definition": "AWS Step Functions coordinate distributed applications with visual workflows.",
+    "source": "AWS Glossary"
+  },
+  {
+    "keyword": "waf",
+    "definition": "AWS WAF (Web Application Firewall) protects web apps from common exploits.",
+    "source": "AWS Glossary"
+  },
+  {
+    "keyword": "shield",
+    "definition": "AWS Shield protects applications from DDoS attacks.",
+    "source": "AWS Glossary"
+  },
+  {
+    "keyword": "secretsmanager",
+    "definition": "AWS Secrets Manager securely manages secrets like API keys and passwords.",
+    "source": "AWS Glossary"
+  },
+  {
+    "keyword": "systemsmanager",
+    "definition": "AWS Systems Manager gives visibility and control of infrastructure on AWS.",
+    "source": "AWS Glossary"
+  },
+  {
+    "keyword": "cloud9",
+    "definition": "AWS Cloud9 is a cloud-based IDE for writing, running, and debugging code.",
+    "source": "AWS Glossary"
+  },
+  {
+    "keyword": "certificatemanager",
+    "definition": "AWS Certificate Manager provisions, manages, and deploys SSL/TLS certificates.",
+    "source": "AWS Glossary"
+  },
+  {
+    "keyword": "elasticloadbalancing",
+    "definition": "AWS ELB automatically distributes incoming application traffic across multiple targets.",
+    "source": "AWS Glossary"
+  },
+  {
+    "keyword": "elasticip",
+    "definition": "An Elastic IP address is a static IPv4 address designed for dynamic cloud computing.",
+    "source": "AWS Glossary"
+  },
+  {
+    "keyword": "cloudshell",
+    "definition": "AWS CloudShell is a browser-based shell to manage AWS resources.",
+    "source": "AWS Glossary"
+  },
+  {
+    "keyword": "outposts",
+    "definition": "AWS Outposts brings AWS infrastructure and services on-premises.",
+    "source": "AWS Glossary"
+  },
+  {
+    "keyword": "directconnect",
+    "definition": "AWS Direct Connect establishes a dedicated network connection to AWS.",
+    "source": "AWS Glossary"
+  },
+  {
+    "keyword": "appsync",
+    "definition": "AWS AppSync builds GraphQL APIs by handling data querying and updating.",
+    "source": "AWS Glossary"
+  },
+  {
+    "keyword": "eventbridge",
+    "definition": "Amazon EventBridge is a serverless event bus that connects applications using events.",
+    "source": "AWS Glossary"
+  },
+  {
+    "keyword": "inspector",
+    "definition": "Amazon Inspector is an automated security assessment service.",
+    "source": "AWS Glossary"
+  },
+  {
+    "keyword": "macie",
+    "definition": "Amazon Macie uses machine learning to discover, classify, and protect sensitive data in AWS.",
+    "source": "AWS Glossary"
+  },
+  {
+    "keyword": "textract",
+    "definition": "Amazon Textract automatically extracts text and data from scanned documents.",
+    "source": "AWS Glossary"
+  },
+  {
+    "keyword": "comprehend",
+    "definition": "Amazon Comprehend is a natural language processing (NLP) service using ML.",
+    "source": "AWS Glossary"
+  },
+  {
+    "keyword": "rekognition",
+    "definition": "Amazon Rekognition adds image and video analysis to your apps using deep learning.",
+    "source": "AWS Glossary"
+  },
+  {
+    "keyword": "lex",
+    "definition": "Amazon Lex builds conversational interfaces using voice and text.",
+    "source": "AWS Glossary"
+  },
+  {
+    "keyword": "polly",
+    "definition": "Amazon Polly turns text into lifelike speech using deep learning.",
+    "source": "AWS Glossary"
+  }
+]

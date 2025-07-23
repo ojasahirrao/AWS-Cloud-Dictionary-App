@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Cloud Dictionary App</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+  <h2 class="appName">📘AWS Cloud Dictionary App</h2>
+  <input class="searchTerm" type="text" id="keyword" placeholder="Enter a cloud term like EC2, S3, Lambda, etc" />
+  <h3 class="note">No need to include "AWS" or "Amazon" before the service name. Just search using the core term.</h3>
+  
+  <button class="searchBtn" onclick="searchKeyword()">Search</button>
+
+  <div class="result" id="result">
+    <p><strong>Definition:</strong> <span id="definition"></span></p>
+    <p><strong>Source:</strong> <span id="source"></span></p>
+  </div>
+
+  <p id="error" class="error"></p>
+
+  <script src="app.js"></script>
+</body>
+</html>
