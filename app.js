@@ -15,7 +15,7 @@ async function searchKeyword() {
 
       try {
         
-        const response = await fetch(`https://50k5abucs9.execute-api.ap-south-1.amazonaws.com/prod/search?text=${encodeURIComponent(input)}`);
+        const response = await fetch(`https://{api-key}.execute-api.ap-south-1.amazonaws.com/prod/search?text=${encodeURIComponent(input)}`);
         
         if (!response.ok) {
           const errData = await response.json();
