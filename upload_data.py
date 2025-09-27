@@ -1,7 +1,7 @@
 import json
 import boto3
 
-with open("C:/Users/ojasa/Cloud Projects/5. Cloud Dictionary App/dataset.json", "r") as f:
+with open("path", "r") as f:
     data = json.load(f)
 
 dynamodb = boto3.resource('dynamodb')
